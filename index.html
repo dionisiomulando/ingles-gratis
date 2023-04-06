@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/screen.css">
+    <link rel="stylesheet" href="estilos/imprimir.css" media="print">
+    <title>Inglês Grátis</title>
+</head>
+<body onresize="mudou()">
+    <header>
+        <h1>
+            INGLÊS GRÁTIS
+        </h1>
+        <div class="menu" onclick="click_menu()">&#9776;</div> 
+        <nav id="lista">
+            <a href="#">Home</a>
+            <a href="#">Contacto</a>
+            <a href="#">Assine</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Bem-vindo ao inglês grátis!</h1>
+            <p>
+                Imagine poder conversar com pessoas de todo o mundo, assistir a filmes sem legendas, ler livros em inglês e viajar para países de língua inglesa com confiança. Todas essas são possibilidades reais quando você se compromete a estudar inglês. Então, não perca mais tempo, comece hoje mesmo a aprender inglês e abra um mundo de oportunidades para si mesmo! Aprender inglês pode ser uma das melhores decisões que você tomará na sua vida. Não só é uma das línguas mais faladas no mundo, mas também é a língua franca dos negócios, da tecnologia, do entretenimento e da cultura global. Ao estudar inglês, você estará se capacitando para se comunicar com pessoas de diferentes países e culturas, ampliando suas oportunidades de carreira, viajando com mais facilidade e, acima de tudo, enriquecendo sua vida.
+            </p>
+            <p>Nosso site foi criado para ajudá-lo a melhorar suas habilidades na língua inglesa. Independentemente de você ser um iniciante ou um aprendiz avançado, temos recursos e atividades que o ajudarão a alcançar seus objetivos de aprendizagem de idiomas.</p>
+
+            <p>Nosso site oferece uma variedade de recursos gratuitos, incluindo lições de gramática, exercícios de vocabulário, atividades de compreensão auditiva e leitura, e prompts de escrita. Também oferecemos treinamento personalizado em língua e aulas online para aqueles que estão interessados em levar sua aprendizagem de idiomas para o próximo nível.</p>
+
+            <p>Nossa equipe de professores de inglês experientes e especialistas em linguagem projetou nossos materiais para serem envolventes e eficazes, garantindo que você faça progresso em suas habilidades linguísticas. Acreditamos que aprender inglês deve ser divertido e recompensador, e nos esforçamos para criar um ambiente que seja de apoio e encorajamento para todos os alunos.</p>
+
+            <p>Se você está estudando inglês para fins acadêmicos, de negócios, de viagens ou apenas para enriquecimento pessoal, nosso site tem algo para todos. Então, por que não explorar nosso site e começar a melhorar suas habilidades na língua inglesa hoje mesmo!</p>
+        </section>
+    </main>
+    <article>
+        <h2>Comunicação global:</h2>
+        <p>
+            O inglês é a língua franca mundial e é falado em muitos países ao redor do mundo. Saber falar inglês ajuda a se comunicar com pessoas de diferentes países e culturas, o que pode ser útil em viagens, negócios e estudos internacionais.
+        </p>
+
+        <h2> Oportunidades de trabalho: </h2>
+        <p>
+            Muitas empresas internacionais têm o inglês como sua língua principal de comunicação. Saber falar inglês pode abrir portas para oportunidades de trabalho em empresas globais, em países onde o inglês é a língua oficial ou em posições que exigem habilidades de comunicação em inglês.
+        </p>
+
+        <h2>Estudos acadêmicos:</h2>
+        <p>
+            O inglês é a língua principal de instrução em muitas das principais universidades do mundo. Saber falar inglês é essencial para estudantes que desejam estudar no exterior e para aqueles que desejam acessar materiais acadêmicos em inglês.
+        </p>
+
+        <h2>Cultura popular:</h2>
+        <p>
+            A cultura popular, incluindo filmes, música, televisão e literatura, é predominantemente em inglês. Saber falar inglês pode permitir uma maior compreensão e apreciação dessas formas de arte e entretenimento.
+        </p>
+
+        <h2>Crescimento pessoal:</h2>
+        <p>
+            
+            Aprender uma nova língua pode ajudar a melhorar a memória, a capacidade cognitiva e a autoestima. Também pode ajudar a expandir as conexões sociais, conhecer novas pessoas e culturas e tornar a vida mais emocionante e interessante.
+        </p>
+    </article>
+
+        <input type="button" value="Inicie o Curso" class="btn_iniciar">
+    <footer>
+        <p>Site idealizado e desenvolvido por Dionísio Pinto Mulando</p>
+    </footer>
+    <script>
+        function click_menu() {
+            if (lista.style.display == 'block') {
+                lista.style.display = 'none'
+            } else {
+                lista.style.display = 'block'
+            } 
+        }
+        function mudou() {
+            if (window.innerWidth >= 668) {
+                lista.style.display = 'block'
+            } else {
+                lista.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>

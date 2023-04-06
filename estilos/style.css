@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+:root{
+    --letras: 'Source Serif Pro', serif;
+    --menu: 'Handlee', cursive;
+    --titulos: 'Mukta', sans-serif;
+    --cor01:   #005A61;
+    --cor02:   #1D5C61;
+    --cor04:   #45DBE6;
+    --cor03:   #00D1E0;
+    --cor05:   #00A2AD;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--letras);
+}
+html{
+    height: 100vh;
+}
+header{
+    background-color: var(--cor01); 
+
+}
+header h1{
+    font-family: var(--menu);
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+}
+.menu{
+    color:white;
+    font-size: xx-large;
+    text-align: center;
+    background-color: var(--cor05);
+    cursor: pointer;
+}
+nav{
+    display: none;
+    background-color: var(--cor05);
+    padding: 5px;
+}
+nav a{
+    display: block;
+    color: white;
+    font-family: var(--menu);
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid var(--cor02);
+}
+nav a:hover{
+    color: black;
+}
+main{
+    margin: auto;
+    max-width: 1200px;
+    min-width: 270px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 5px #00000048;
+}
+main h1{
+    font-size: xx-large;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: var(--titulos);
+}
+section p{
+    background-color: white;
+    padding: 10px;
+    font-size: 1.4em;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.6em;
+}
+
+article{
+    background-image: url('../imagens/ingles300.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right center;
+    margin-top: 5px;
+    border-radius: 10px;
+    max-width: 1227px;
+    margin: auto;
+}
+article > p{
+    color: white;
+    background-color: #00000083;
+    font-family: var(--letras);
+    padding: 10px;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    width: 280px;
+    line-height: 1.6em;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+article > h2{
+    font-family: var(--titulos);
+    padding: 10px;
+    color: black;
+    width: 280px;
+    border-radius: 10px;
+    background-color: #ffffff46;
+    text-shadow: 2px 2px 0px #ffffff28;
+    text-align: left;
+}
+.btn_iniciar{
+    display: block;
+    background-color: var(--cor01);
+    font-family: var(--menu);
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    font-size: 1.6em;
+    margin-bottom: 10px;
+
+}
+.btn_iniciar:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;    
+}
+footer{
+    background-color: black; 
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+}
+footer p{
+    font-family: var(--menu);
+    font-size: 1.6em;
+    font-weight: bolder;
+}

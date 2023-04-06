@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@media screen and (min-width: 668px) {
+    nav{
+        display: block;
+    }
+    nav a{
+        display: inline-block;
+        border: none;
+        margin-left: 20px;
+    }
+    .menu{
+        display: none;
+    }
+    article{
+        background-image: url('../imagens/ingles1200.jpg');
+    
+    }
+    article > p{
+        margin-left: 10px;
+    }
+}
